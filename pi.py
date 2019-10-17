@@ -5,3 +5,5 @@ def inside(p):
 count = sc.parallelize(xrange(0, NUM_SAMPLES)) \
              .filter(inside).count()
 print "Pi is roughly %f" % (4.0 * count / NUM_SAMPLES)
+# update 1
+
